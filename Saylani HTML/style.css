@@ -1,0 +1,31 @@
+/* input:focus{
+    background-color: skyblue; 
+}
+input{
+    background-color: chartreuse;
+
+} */
+body{
+    /* background-image: url('../templates/image/assignment.jpg'); */
+}
+input,select{
+    background-color: white;
+    font-size: 20px;
+    border: 2px dashed blue;
+    border-radius: 10px;
+    width: 500px;
+}
+input:hover,select:hover{
+    background-color: cyan;
+}
+input:focus,select:focus{
+    background-color: chartreuse;
+    /* background-image: url("saylani-logo.png") */
+}
+#submit{
+    color: beige;
+    /* text-shadow: 5px 10px 1px blue; */
+}
+.rad{
+    width: 20px;
+}
